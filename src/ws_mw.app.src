@@ -1,0 +1,15 @@
+{application, ws_mw, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, [ws_mw_sup]},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy,
+		gproc
+	]},
+	{mod, {ws_mw_app, []}},
+	{env, []}
+]}.

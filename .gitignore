@@ -1,0 +1,4 @@
+deps/
+.idea
+_rel
+erlang.mk
